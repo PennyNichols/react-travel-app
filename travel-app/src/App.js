@@ -5,9 +5,13 @@ import Main from './components/Main/Main';
 import Navbar from './components/Navbar/Navbar';
 
 function App() {
+  const data=['new york','boston','philly']
   return (
     <div className="App">
-      <Header title="Are We There Yet?"/>
+      {/* <ul>
+        {data.map(city=><li className='listItems'>{city}</li>)}
+      </ul> */}
+      <Header title="Are We There Yet?" />
       <Navbar/>
       <Main/>
       <Footer/>

@@ -1,8 +1,27 @@
 @import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400;500;600;700&display=swap');
 
+*{
+  margin:0;
+  padding:0;
+}
+
 .App {
   text-align: center;
   font-family: 'Dancing Script', cursive;
+
+}
+
+.header{
+  background-image: url('https://github.com/PennyNichols/react-travel-app/blob/main/travel-app/public/Images/hero-img.jpg?raw=true');
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 30vh
+
+}
+
+.navbar{
+  display: flex;
+  justify-content: space-around;
 }
 
 .App-logo {
