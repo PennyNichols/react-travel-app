@@ -13,7 +13,7 @@ function App() {
       </ul> */}
       <Header title="Are We There Yet?" />
       <Navbar/>
-      <Main/>
+      <Main className='main'/>
       <Footer/>
     </div>
   );
