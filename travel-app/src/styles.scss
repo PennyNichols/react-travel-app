@@ -1,0 +1,126 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400;500;600;700&display=swap');
+
+$primaryText:white;
+
+.title{
+    color: $primaryText;
+}
+
+*{
+  margin:0;
+  padding:0;
+  font-size: 16px;
+}
+
+.App {
+  text-align: center;
+  font-family: 'Dancing Script', cursive;
+  background-color: rgb(209, 209, 209);
+
+}
+
+.header{
+  background-image: url('https://github.com/PennyNichols/react-travel-app/blob/main/travel-app/src/components/Images/hero-img.jpg?raw=true');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position-y:50%;
+  height: 25vh;
+  
+  color: rgba(255, 255, 255, 0.631);
+  text-align: center;
+  
+
+}
+
+.header h1{
+  line-height: 25vh;
+  vertical-align: center;
+  font-size: 8rem;
+}
+
+.navbar{
+  display: flex;
+}
+
+
+.city{
+  box-shadow: 2px 2px 2px grey;
+  margin-top: 15px !important;
+  margin-right: 15px;
+  background-color: black;
+  width: 30rem;
+  height: 30rem;
+  position: relative;
+  overflow: hidden;
+}
+
+.city img{
+  transition: all 1s;
+  width: 100%;
+  height: 25rem;
+}
+
+
+
+.hideText{
+    position: absolute;
+    bottom: -10rem;
+    padding: 2rem;
+    font-size: 2rem;
+    transition: 2s ease-in-out;
+}
+
+
+
+.city:hover .hideText{
+  transform: translateY(-10rem)
+}
+
+.city:hover img{
+  opacity: .3;
+}
+
+h4{
+  color: white;
+}
+
+p{
+  color: white;
+}
+
+
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}

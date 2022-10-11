@@ -1,11 +1,11 @@
-import './App.css';
 import Footer from './components/Footer/Footer';
 import Header from './components/Header/Header';
 import Main from './components/Main/Main';
 import Navbar from './components/Navbar/Navbar';
+import './styles.scss'
+
 
 function App() {
-  const data=['new york','boston','philly']
   return (
     <div className="App">
       {/* <ul>
